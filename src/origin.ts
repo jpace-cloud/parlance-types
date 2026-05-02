@@ -1,5 +1,5 @@
 // keep in sync with xcode/Sources/ParlanceKit/Models/Origin.swift
-// (manual mirror — Swift port lives in the xcode repo)
+// Swift port: jpace-cloud/parlance (xcode/Sources/ParlanceKit/Models/Origin.swift)
 
 export type SnapshotRef = {
   url: string;

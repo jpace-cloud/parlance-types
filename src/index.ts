@@ -26,3 +26,18 @@ export type {
   GlossaryValueListResponse,
   GlossaryValueDetailResponse,
 } from './glossary-values';
+
+export type {
+  StandardsSeverity,
+  StandardsScope,
+  StandardsStatus,
+  StandardsOrigin,
+  StandardsSpec,
+  StandardsDefinition,
+  StandardsDefinitionAlias,
+  StandardsDefinitionListItem,
+  StandardsDefinitionDetail,
+  StandardsSpecListResponse,
+  StandardsDefinitionListResponse,
+  StandardsDefinitionDetailResponse,
+} from './standards';

@@ -41,3 +41,11 @@ export type {
   StandardsDefinitionListResponse,
   StandardsDefinitionDetailResponse,
 } from './standards';
+
+export { resolveSemanticName } from './semantic-resolver';
+export type {
+  UnitType,
+  SpacingSystem,
+  ResolveResult,
+  PresetEntry,
+} from './semantic-resolver';

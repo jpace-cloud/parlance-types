@@ -33,6 +33,10 @@ naming the other.
 
 ## Roadmap
 
+> **Planned — not yet implemented.** The `./schemas` entry point below does not
+> exist yet: `zod` is not a dependency and there is no `./schemas` export in
+> `package.json`. Do not import it until this ships.
+
 PR 2 will add a `./schemas` entry point exporting:
 
 - `OriginSchema` — full union, used for parsing reads
